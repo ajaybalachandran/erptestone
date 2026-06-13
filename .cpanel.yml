@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home1/cyansoftksa/public_html/gitTest
+    - /bin/cp -R * $DEPLOYPATH
